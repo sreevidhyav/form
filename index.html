@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Form</title>
+  <style>
+  LABEL { color:#ffffff; font-family:calibri;}
+  body {color:#6633ff; font-family:calibri;}
+  table { position:relative; }
+  div.b 
+  {
+  
+  margin: 10px;
+  width: 70%;
+  } 
+  </style>
+ </head>
+ <body>
+ <u><h1 align="center">STUDENT REGISTRATION FORM</h1></u>
+<div class="b">
+  <CENTER><table bgcolor="#6633ff" align="center">
+  <tr>
+	<td><LABEL>FIRST NAME</LABEL></td>
+	<td><INPUT TYPE="TEXT"></td>
+	<td><LABEL> (max 30 characters a-z and A-Z)</LABEL></td>
+  </tr>
+  <tr>
+	<td><LABEL>LAST NAME</LABEL</td>
+	<td><INPUT TYPE="TEXT"></td>
+	<td><LABEL> (max 30 characters a-z and A-Z)</LABEL></td>
+  </tr>
+  <tr>
+	<td><LABEL>DATE OF BIRTH</LABEL></td>
+	<td><SELECT name="day"><OPTION>Day: </OPTION><OPTION>1 </OPTION><OPTION>2 </OPTION><OPTION>3 </OPTION><OPTION>4 </OPTION><OPTION>5 </OPTION><OPTION>6 </OPTION>v<OPTION>7 </OPTION><OPTION>8 </OPTION><OPTION>9 </OPTION><OPTION>10 </OPTION><OPTION>11 </OPTION><OPTION>12 </OPTION><OPTION>13 </OPTION><OPTION>14 </OPTION><OPTION>15 </OPTION><OPTION>16 </OPTION><OPTION>17 </OPTION><OPTION>18 </OPTION><OPTION>19 </OPTION><OPTION>20 </OPTION><OPTION>21 </OPTION><OPTION>22 </OPTION><OPTION>23 </OPTION><OPTION>24 </OPTION><OPTION>25 </OPTION><OPTION>26 </OPTION><OPTION>27 </OPTION><OPTION>28 </OPTION><OPTION>29 </OPTION><OPTION>30 </OPTION><OPTION>31 </OPTION></select> &nbsp;
+	<SELECT name="month"><OPTION> Month:</OPTION><OPTION> JAN</OPTION><OPTION> FEB</OPTION><OPTION> MAR</OPTION><OPTION> APR</OPTION><OPTION> MAY</OPTION><OPTION> JUN</OPTION><OPTION> JUL</OPTION><OPTION> AUG</OPTION><OPTION> SEP</OPTION><OPTION> OCT</OPTION><OPTION> NOV</OPTION><OPTION> DEC</OPTION></SELECT> &nbsp;
+    <SELECT name="year"><OPTION>Year: </OPTION><OPTION>1990 </OPTION><OPTION>1991 </OPTION><OPTION>1992 </OPTION><OPTION>1993 </OPTION><OPTION>1994 </OPTION><OPTION>1995 </OPTION><OPTION>1996 </OPTION><OPTION>1997 </OPTION><OPTION>1998 </OPTION><OPTION>1999 </OPTION><OPTION>2000 </OPTION><OPTION>2001 </OPTION><OPTION>2002 </OPTION><OPTION>2003 </OPTION><OPTION>2004 </OPTION><OPTION>2005 </OPTION></SELECT>
+	</td>
+	<td></td>
+  </tr>
+  <tr>
+  <td><LABEL> EMAIL ID: </LABEL></td>
+  <td><INPUT TYPE="TEXT" REQUIRED></td>
+  </tr>
+  <tr>
+  <td><LABEL> MOBILE NUMBER </LABEL></td>
+  <td><INPUT TYPE="NUMBER" REQUIRED></td>
+  <td><LABEL>(10 digit number)</LABEL></td>
+  </tr>
+  <tr>
+  <td><LABEL> GENDER </LABEL></td>
+  <td><LABEL> Male </LABEL><INPUT TYPE="RADIO" NAME="GEN"></INPUT><LABEL>Female</LABEL><INPUT TYPE="RADIO" NAME="GEN"></INPUT></td>
+  </tr>
+  <tr>
+  <td><LABEL> ADDRESS </LABEL></td>
+  <td><TEXTAREA ROWS="5" COLS="20" NAME="ADDRESS"></TEXTAREA></td>
+  </tr>
+  <tr>
+  <td><LABEL>CITY</LABEL</td>
+  <td><INPUT TYPE="TEXT"></td>
+  <td><LABEL>(max 30 characters a-z and A-Z)</LABEL></td>
+  </tr>
+  <tr>
+  <td><LABEL>PIN CODE</LABEL</td>
+  <td><INPUT TYPE="number"></td>
+  <td><LABEL>(6 digit number)</LABEL></td>
+  </tr>
+  <tr>
+  <td><LABEL>STATE</LABEL</td>
+  <td><INPUT TYPE="TEXT"></td>
+  <td><LABEL> (max 30 characters a-z and A-Z)</LABEL></td>
+  </tr>
+  <tr>
+  <td><LABEL>COUNTRY</LABEL></td>
+  <td><INPUT TYPE="TEXT" PLACEHOLDER="India"></td>
+  </tr>
+  <tr>
+  <td rowspan="2"><LABEL>HOBBIES</LABEL></td>
+  <td><LABEL>Drawing</LABEL><INPUT TYPE="CHECKBOX" NAME="H" VALUE=""></INPUT>&nbsp;<LABEL>Singing</LABEL><INPUT TYPE="CHECKBOX" NAME="H" VALUE=""></INPUT></td>
+  <td><LABEL>Dancing</LABEL><INPUT TYPE="CHECKBOX" NAME="H" VALUE=""></INPUT>&nbsp;<LABEL>Sketching</LABEL><INPUT TYPE="CHECKBOX" NAME="H" VALUE=""></INPUT></td>
+  </tr>
+  <tr>
+  <td><LABEL>Others</LABEL><INPUT TYPE="CHECKBOX" NAME="H" VALUE=""></td><td></INPUT><INPUT TYPE="TEXT" NAME="H" VALUE=""></INPUT></td>
+  </tr> <br>
+  
+  <tr>
+	<td ROWSPAN="6"><LABEL>QUALIFICATION</LABEL></td>
+	<td><LABEL>Sl.No.</LABEL></td>
+	<td><LABEL>Examination</LABEL></td>
+	<td><LABEL>Board</LABEL></td>
+	<td><LABEL>Percentage</LABEL></td>
+	<td><LABEL>Year of Passing</LABEL></td>
+	<td></td>
+  </tr>
+
+  <tr>
+	<td><LABEL> 1 </LABEL></td>
+	<td><Label> Class X </LABEL></td>
+	<td><INPUT TYPE="TEXT" NAME="" VALUE=""></INPUT></td>
+	<td><INPUT TYPE="TEXT" NAME="" VALUE=""></INPUT></td>
+	<td><INPUT TYPE="TEXT" NAME="" VALUE=""></INPUT></td>
+  </tr>	
+  <tr>
+    <td><LABEL> 2 </LABEL></td>
+	<td><Label> Class XII </LABEL></td>
+	
+	<td><INPUT TYPE="TEXT" NAME="" VALUE=""></INPUT></td>
+	<td><INPUT TYPE="TEXT" NAME="" VALUE=""></INPUT></td>
+	<td><INPUT TYPE="TEXT" NAME="" VALUE=""></INPUT></td>
+  </tr>
+  <tr>
+    <td><LABEL> 3 </LABEL></td>
+	<td><Label> Graduation </LABEL></td>
+	
+	<td><INPUT TYPE="TEXT" NAME="" VALUE=""></INPUT></td>
+	<td><INPUT TYPE="TEXT" NAME="" VALUE=""></INPUT></td>
+	<td><INPUT TYPE="TEXT" NAME="" VALUE=""></INPUT></td>
+  </tr>
+  <tr>
+    <td><LABEL> 4 </LABEL></td>
+	<td><Label> Masters </LABEL></td>
+	
+	<td><INPUT TYPE="TEXT" NAME="" VALUE=""></INPUT></td>
+	<td><INPUT TYPE="TEXT" NAME="" VALUE=""></INPUT></td>
+	<td><INPUT TYPE="TEXT" NAME="" VALUE=""></INPUT></td>
+  </tr>
+  <tr>
+  <td></td>
+  <td colspan="2" align="right"><LABEL>(10 char max)<LABEL></td>
+  <td><LABEL>(upto 2 decimal)</td>
+  </tr>
+  <tr>
+  <td><LABEL>COURSES<BR>APPLIED FOR</LABEL></td>
+  <td><LABEL>BCA</LABEL><INPUT TYPE="RADIO" NAME="C"></INPUT>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<LABEL>B.Com</LABEL><INPUT TYPE="RADIO" NAME="C"></INPUT></td><td><LABEL>B.Sc</LABEL><INPUT TYPE="RADIO" NAME="C"></INPUT>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<LABEL>B.A</LABEL><INPUT TYPE="RADIO" NAME="C"></INPUT></td>
+<tr>
+<td colspan="3" align="right"><INPUT TYPE="SUBMIT" VALUE="SUBMIT"></INPUT></td><td><INPUT TYPE="RESET" VALUE="RESET"></INPUT></td>
+  </table> </CENTER>
+  </div>
+ </body>
+</html>
